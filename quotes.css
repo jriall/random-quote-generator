@@ -1,0 +1,32 @@
+body {
+    background: url('http://res.cloudinary.com/jamesriall/image/upload/v1465331412/lofoten_nxew04.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quote-box {
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.me {
+    bottom: 1%;
+    color: white;
+    font-size: 16px;
+    left: 5%;
+    position: fixed;
+}
+
+.quote-author {
+    font-size: 150%;
+}
