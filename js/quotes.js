@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // set url variable
-  var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
+  var url = "https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
 
   //define function to get new quote
   var newQuote = function(data) {
