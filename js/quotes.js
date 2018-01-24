@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   // set url variable
   var url = "https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
 
